@@ -29,6 +29,7 @@ int main (){
       read(fd2,result,50);
       printf("Response from worker: %s\n", result);
 }
-
+close(fd1);
+close(fd2);
   return 0;
 }

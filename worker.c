@@ -30,7 +30,8 @@ int main (){
     //printf("wrote %d bytes\n", a);
    }
 
-
+close(fd1);
+close(fd2);
 
   return 0;
 }
